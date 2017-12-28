@@ -1,0 +1,183 @@
+	body {
+	margin: 0;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+.background {
+	background: url('https://untappedcities-wpengine.netdna-ssl.com/wp-content/uploads/2014/10/Jean-Pierre-Laffont-Photojournalism-Photograpy-1970s-Twin-Towers-NYC.jpg');
+	background-size: cover;
+}
+
+.back1 {
+	background: url('https://c1.staticflickr.com/6/5137/5513282923_3b95e9b687_b.jpg');
+	filter: opacity(250%);
+}
+
+hero {
+	height: 100vh:
+}
+
+hero p {
+	padding: 0 20px 30px 15px;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+	padding: 70px 0 60px 0;
+	font-size: 60px;
+	color: rgb(186, 219, 173);
+}
+
+nav {
+	width: 100%;
+}
+
+nav .container {
+	background-color: rgb(186, 219, 173);
+}
+
+nav .container p {
+	padding: 60px;
+}
+
+nav ul {
+	float: right;
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 5px 70px 5px 10px;
+}
+
+nav ul li:hover {
+	background: #ccc;
+}
+
+nav ul li a {
+	display: block;
+	color: black;
+	padding: 0 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.photo {
+	max-width: 100%;
+	height: auto;
+}
+
+nav .container img {
+	padding: 10px 0 10px 0;
+}
+
+.zero {
+	margin: 15px 0 15px 0;
+}
+
+.zero {
+	float: left;
+	width: 30%;
+	margin-right: 5%;
+	padding: 50px 0 50px 0;
+	filter: opacity(70%);
+}
+
+.zero:last-of-type {
+	margin-right: 0;
+}
+
+figure:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+nav {
+	width: 100%;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+}
+
+footer .container {
+	background-color: rgb(194, 196, 194);
+}
+
+.map img {
+	width: 100%;
+	height: auto;
+	filter: opacity(30%);
+}
+
+.map p {
+	text-align: center;
+	position: relative;
+	bottom: 150px;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	padding: 20px;
+}
+
+footer p {
+	padding: 20px;
+	font-size: 15px;
+}
+
+hero p {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+@media(min-width: 300px) and (max-width: 767px) {
+	nav {
+		float: none;
+		display: block;
+	}
+	nav li {
+		padding: 0 0 0 40px;
+	}
+	h1 {
+		padding: 35px 0 10px 0;
+	}
+	.map p {
+		top: 50px;
+		filter: opacity(80%);
+	}
+	figure .zero {
+		width: 100%;
+		filter: opacity(40%);
+		float: none;
+		display: block;
+		padding: 5px 0 0 0;
+		margin: 0;
+	}
+	.map img {
+		filter: opacity(20%);
+	}
+	hero .container {
+		margin-top: 130px;
+	}
+	footer {
+		margin-top: 50px;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+	body {}
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+	body {}
+}
+
+@media(min-width: 1200px) {
+	body {}
